@@ -1,0 +1,12 @@
+let name = "Vasylyna";
+let surname = "Kuzyshyn";
+let group = "js620";
+let yearOfBirth = 1992;
+let maritalStatus = false;
+console.log(yearOfBirth);
+console.log(name, surname, group);
+console.log(maritalStatus);
+let a = null;
+let b = undefined;
+console.log(typeof a);
+console.log(typeof b);
