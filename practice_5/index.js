@@ -215,7 +215,7 @@ function handleFigures(figures) {
 
 
 
-//---------Homework 4 Task 3----------
+//---------Homework 4 Task 4----------
 
 const monthNames = ["January", "February", "March",  "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
 
