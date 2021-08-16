@@ -38,6 +38,33 @@ try {
 	console.log(exception)
 }
 
+
+//-------Task 3--------
+
+const monthNames = ["January", "February", "March",  "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
+
+class MonthException {
+	constructor(message) {
+		this.message = message
+		this.name = 'MonthException'
+	}
+
+	showMonthName(month) {
+		if (month > 12 || month < 0) {
+			throw new Error('Incorrect month number')
+		} else {
+			return monthNames[month - 1]
+		}
+	}
+}
+try {
+	let calendar = new MonthException('message')
+	console.log(calendar.showMonthName(5))
+	console.log(calendar.showMonthName(51))
+} catch(err) {
+	console.log(err.message)
+}
+
 //------Task 4---------
 
 function showUser(id) {
