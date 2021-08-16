@@ -169,8 +169,7 @@ class Triangle extends GeometricFigure {
 	getArea() {
 		return (this.side * this.height) / 2
 	}
-} //var s = (side1 + side2 + side3) / 2;
-//var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
+}
 
 class Square extends GeometricFigure {
 	constructor(side) {
@@ -187,7 +186,7 @@ class Square extends GeometricFigure {
 class Circle extends GeometricFigure {
 	constructor(radius) {
 		super()
-		this.radius = radius //var area = (myRadius * myRadius * Math.PI);
+		this.radius = radius
 	}
 
 	getArea() {
@@ -217,6 +216,7 @@ function handleFigures(figures) {
 
 
 //---------Homework 4 Task 3----------
+
 const monthNames = ["January", "February", "March",  "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
 
 class MonthException {
