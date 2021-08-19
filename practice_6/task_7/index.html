@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Task 7</title>
+ <script>
+  document.body = document.createElement("body");
+  let main = document.createElement('main');
+  main.className += "mainClass check item";
+  let div = document.createElement('div');
+  div.setAttribute('id','myDiv');
+  let p = document.createElement('p');
+  p.textContent = 'First paragraph'
+  div.appendChild(p)
+  main.appendChild(div)
+  document.body.appendChild(main);
+ </script>
+</head>
+</html>
