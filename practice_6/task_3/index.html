@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 3</title>
+</head>
+<body>
+<h2>Article header</h2>      
+    <div id="text">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+    </div>
+	<p>Another text</p>
+	<script>
+		let divs = document.querySelector("div").querySelectorAll("p")
+		for(let i = 0; i < divs.length; i++) {
+			console.log(`Selector text ${i}: ${divs[i].textContent}`)
+		}
+    </script>
+</body>
+</html>
