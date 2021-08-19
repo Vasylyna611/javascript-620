@@ -180,7 +180,6 @@ class Square extends GeometricFigure {
 	getArea() {
 		return this.side * this.side
 	}
-	//side*side
 }
 
 class Circle extends GeometricFigure {
@@ -215,7 +214,7 @@ function handleFigures(figures) {
 
 
 
-//---------Homework 4 Task 3----------
+//---------!!!!Homework 4 Task 3!!!!----------
 
 const monthNames = ["January", "February", "March",  "April", "May", "June",  "July", "August", "September", "October", "November", "December"];
 
