@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 4</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<input type="checkbox" id="main_check"/>
+    <input type="checkbox" id="main_check"/>
+    <input type="checkbox" id="main_check"/>
+    <input type="checkbox" id="main_check"/>
+    <input type="checkbox" id="main_check"/>
+    <input type="checkbox" id="main_check"/>
+ </div>
+    <script>
+    	$('body :checkbox').change(function() {
+    		let total=$("body").find('input[id="main_check"]:checked').length;
+    		if (total >= 3) {
+    			$("body").find('input[id="main_check"]').attr("disabled", true);
+    		}
+		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 3</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+</head>
+<body>
+	<h3>header1</h3>
+    <div>text1</div>
+    <h3>header2</h3>
+    <div>text2</div>
+    <script>
+    	let firstH3 = $("h3:first")
+    	let lastH3 = $("h3:last")
+    	firstH3.before(firstH3.next("div:first"))
+    	lastH3.before(lastH3.next("div:first"))
+    </script>
+</body>
+</html>
